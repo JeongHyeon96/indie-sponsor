@@ -39,18 +39,6 @@ Indie Sponsor는 **후원자**가 **인디 개발자**에게 후원하고, **인
 ## 📂 **프로젝트 구조**
 src/ ├── main/ │ ├── java/ │ │ ├── com/ │ │ │ ├── indiesponsor/ │ │ │ │ ├── controller/ # 요청을 처리하는 컨트롤러 │ │ │ │ ├── service/ # 비즈니스 로직 │ │ │ │ ├── repository/ # 데이터베이스 연동 │ │ │ │ ├── model/ # 데이터 모델 │ │ │ │ └── config/ # 설정 파일 (Spring Security, DB 설정 등) │ ├── resources/ │ │ ├── templates/ # Thymeleaf 템플릿 │ │ ├── static/ # CSS, JavaScript, 이미지 파일 └── test/ ├── java/ ├── com/ ├── indiesponsor/ # 테스트 케이스
 
-## 💻 **실행 방법**
-
-```bash
-# 프로젝트 클론
-git clone https://github.com/JeongHyeon96/indie-sponsor.git
-
-# 의존성 설치
-mvn clean install
-
-# 애플리케이션 실행
-mvn spring-boot:run
-
 🔗 연관 링크
 GitHub 레포지토리: Indie Sponsor GitHub 레포지토리
 
@@ -69,3 +57,17 @@ MySQL 데이터베이스를 사용한 데이터 모델 설계 및 CRUD 연습
 반응형 디자인 개선: 다양한 기기에서의 접근을 위한 UI 개선
 
 알림 시스템 추가: 후원자와 인디 개발자에게 이메일 알림 기능 추가
+
+## 💻 **실행 방법**
+
+```bash
+# 프로젝트 클론
+git clone https://github.com/JeongHyeon96/indie-sponsor.git
+
+# 의존성 설치
+mvn clean install
+
+# 애플리케이션 실행
+mvn spring-boot:run
+
+

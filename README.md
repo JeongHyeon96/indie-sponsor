@@ -72,7 +72,7 @@ mvn clean install
 
 # 애플리케이션 실행
 mvn spring-boot:run
-
+```
 🔗 연관 링크
 GitHub 레포지토리: Indie Sponsor GitHub 레포지토리
 

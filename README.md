@@ -73,10 +73,10 @@ mvn clean install
 # 애플리케이션 실행
 mvn spring-boot:run
 ```
-🔗 연관 링크
-GitHub 레포지토리: Indie Sponsor GitHub 레포지토리
+
 
 📈 학습 목표 및 성과
+```
 Spring Framework를 사용한 MVC 패턴 이해 및 실습
 
 Spring Security를 통한 인증 및 권한 관리 구현
@@ -84,10 +84,12 @@ Spring Security를 통한 인증 및 권한 관리 구현
 MySQL 데이터베이스를 사용한 데이터 모델 설계 및 CRUD 연습
 
 팀 협업을 통한 프로젝트 진행 및 GitHub를 이용한 버전 관리 실습
-
+```
 📝 개선할 점
+```
 결제 시스템 연동: 현재 후원은 모의 데이터로 진행되므로 실제 결제 시스템을 연동할 예정
 
 반응형 디자인 개선: 다양한 기기에서의 접근을 위한 UI 개선
 
 알림 시스템 추가: 후원자와 인디 개발자에게 이메일 알림 기능 추가
+```
